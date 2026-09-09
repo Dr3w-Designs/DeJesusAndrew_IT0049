@@ -1,0 +1,291 @@
+CRITICAL - 2026-09-09 00:20:54 --> ErrorException: Undefined variable $id
+[Method: GET, Route: homepage]
+in APPPATH\Views\puihaha.php on line 3.
+ 1 APPPATH\Views\puihaha.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\demonstration_ci4\\app\\Views\\puihaha.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\demonstration_ci4\\app\\Views\\puihaha.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('puihaha', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('puihaha')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-09 00:21:04 --> ErrorException: Undefined variable $id
+[Method: GET, Route: homepage/TW33]
+in APPPATH\Controllers\Home.php on line 18.
+ 1 APPPATH\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\demonstration_ci4\\app\\Controllers\\Home.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->hm('TW33')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-09 12:26:41 --> ErrorException: Undefined variable $id
+[Method: GET, Route: homepage]
+in APPPATH/Views/puihaha.php on line 3.
+ 1 APPPATH/Views/puihaha.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', '/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/app/Views/puihaha.php', 3)
+ 2 SYSTEMPATH/View/View.php(234): include('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/app/Views/puihaha.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():231}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render('puihaha', [], true)
+ 5 APPPATH/Controllers/Home.php(13): view('puihaha')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->homepage()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/public/index.php')
+CRITICAL - 2026-09-09 12:46:27 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: /]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:46:36 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: /]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:46:54 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: /]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:46:57 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: /]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:47:30 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: about]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:47:34 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: /]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+WARNING - 2026-09-09 12:47:38 --> [DEPRECATED] Kint\Parser\Parser::__construct(): Implicitly marking parameter $caller as nullable is deprecated, the explicit nullable type must be used instead in VENDORPATH/kint-php/kint/src/Parser/Parser.php on line 75.
+ 1 VENDORPATH/composer/ClassLoader.php(576): include('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/system/Debug/Exceptions.php')
+ 2 VENDORPATH/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/vendor/composer/../kint-php/kint/src/Parser/Parser.php')
+ 3 VENDORPATH/kint-php/kint/src/Kint.php(345): Composer\Autoload\ClassLoader->loadClass('Kint\\Parser\\Parser')
+ 4 VENDORPATH/kint-php/kint/src/Kint.php(560): Kint\Kint::createFromStatics([...])
+ 5 SYSTEMPATH/Debug/Toolbar.php(113): Kint\Kint::dump([...])
+ 6 SYSTEMPATH/Debug/Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1788958058.24039, 0.0125, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 7 SYSTEMPATH/Filters/DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 8 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 9 SYSTEMPATH/Filters/Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+10 SYSTEMPATH/CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+11 SYSTEMPATH/CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/public/index.php')
+WARNING - 2026-09-09 12:47:38 --> [DEPRECATED] Kint\Parser\Parser::setCallerClass(): Implicitly marking parameter $caller as nullable is deprecated, the explicit nullable type must be used instead in VENDORPATH/kint-php/kint/src/Parser/Parser.php on line 86.
+ 1 VENDORPATH/composer/ClassLoader.php(576): include('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/system/Debug/Exceptions.php')
+ 2 VENDORPATH/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/vendor/composer/../kint-php/kint/src/Parser/Parser.php')
+ 3 VENDORPATH/kint-php/kint/src/Kint.php(345): Composer\Autoload\ClassLoader->loadClass('Kint\\Parser\\Parser')
+ 4 VENDORPATH/kint-php/kint/src/Kint.php(560): Kint\Kint::createFromStatics([...])
+ 5 SYSTEMPATH/Debug/Toolbar.php(113): Kint\Kint::dump([...])
+ 6 SYSTEMPATH/Debug/Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1788958058.24039, 0.0125, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 7 SYSTEMPATH/Filters/DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 8 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 9 SYSTEMPATH/Filters/Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+10 SYSTEMPATH/CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+11 SYSTEMPATH/CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/public/index.php')
+WARNING - 2026-09-09 12:47:38 --> [DEPRECATED] Kint\Zval\Value::addRepresentation(): Implicitly marking parameter $pos as nullable is deprecated, the explicit nullable type must be used instead in VENDORPATH/kint-php/kint/src/Zval/Value.php on line 65.
+ 1 VENDORPATH/composer/ClassLoader.php(576): include('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/system/Debug/Exceptions.php')
+ 2 VENDORPATH/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/vendor/composer/../kint-php/kint/src/Zval/Value.php')
+ 3 VENDORPATH/kint-php/kint/src/Kint.php(398): Composer\Autoload\ClassLoader->loadClass('Kint\\Zval\\Value')
+ 4 VENDORPATH/kint-php/kint/src/Kint.php(574): Kint\Kint::getBasesFromParamInfo([...], 1)
+ 5 SYSTEMPATH/Debug/Toolbar.php(113): Kint\Kint::dump([...])
+ 6 SYSTEMPATH/Debug/Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1788958058.24039, 0.0125, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 7 SYSTEMPATH/Filters/DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 8 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 9 SYSTEMPATH/Filters/Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+10 SYSTEMPATH/CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+11 SYSTEMPATH/CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/public/index.php')
+WARNING - 2026-09-09 12:47:38 --> [DEPRECATED] Kint\Zval\Value::replaceRepresentation(): Implicitly marking parameter $pos as nullable is deprecated, the explicit nullable type must be used instead in VENDORPATH/kint-php/kint/src/Zval/Value.php on line 84.
+ 1 VENDORPATH/composer/ClassLoader.php(576): include('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/system/Debug/Exceptions.php')
+ 2 VENDORPATH/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/vendor/composer/../kint-php/kint/src/Zval/Value.php')
+ 3 VENDORPATH/kint-php/kint/src/Kint.php(398): Composer\Autoload\ClassLoader->loadClass('Kint\\Zval\\Value')
+ 4 VENDORPATH/kint-php/kint/src/Kint.php(574): Kint\Kint::getBasesFromParamInfo([...], 1)
+ 5 SYSTEMPATH/Debug/Toolbar.php(113): Kint\Kint::dump([...])
+ 6 SYSTEMPATH/Debug/Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1788958058.24039, 0.0125, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 7 SYSTEMPATH/Filters/DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 8 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 9 SYSTEMPATH/Filters/Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+10 SYSTEMPATH/CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+11 SYSTEMPATH/CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/public/index.php')
+WARNING - 2026-09-09 12:47:38 --> [DEPRECATED] Kint\Zval\Value::blank(): Implicitly marking parameter $name as nullable is deprecated, the explicit nullable type must be used instead in VENDORPATH/kint-php/kint/src/Zval/Value.php on line 237.
+ 1 VENDORPATH/composer/ClassLoader.php(576): include('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/system/Debug/Exceptions.php')
+ 2 VENDORPATH/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/vendor/composer/../kint-php/kint/src/Zval/Value.php')
+ 3 VENDORPATH/kint-php/kint/src/Kint.php(398): Composer\Autoload\ClassLoader->loadClass('Kint\\Zval\\Value')
+ 4 VENDORPATH/kint-php/kint/src/Kint.php(574): Kint\Kint::getBasesFromParamInfo([...], 1)
+ 5 SYSTEMPATH/Debug/Toolbar.php(113): Kint\Kint::dump([...])
+ 6 SYSTEMPATH/Debug/Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1788958058.24039, 0.0125, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 7 SYSTEMPATH/Filters/DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 8 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 9 SYSTEMPATH/Filters/Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+10 SYSTEMPATH/CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+11 SYSTEMPATH/CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/public/index.php')
+WARNING - 2026-09-09 12:47:38 --> [DEPRECATED] Kint\Zval\Value::blank(): Implicitly marking parameter $access_path as nullable is deprecated, the explicit nullable type must be used instead in VENDORPATH/kint-php/kint/src/Zval/Value.php on line 237.
+ 1 VENDORPATH/composer/ClassLoader.php(576): include('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/system/Debug/Exceptions.php')
+ 2 VENDORPATH/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/vendor/composer/../kint-php/kint/src/Zval/Value.php')
+ 3 VENDORPATH/kint-php/kint/src/Kint.php(398): Composer\Autoload\ClassLoader->loadClass('Kint\\Zval\\Value')
+ 4 VENDORPATH/kint-php/kint/src/Kint.php(574): Kint\Kint::getBasesFromParamInfo([...], 1)
+ 5 SYSTEMPATH/Debug/Toolbar.php(113): Kint\Kint::dump([...])
+ 6 SYSTEMPATH/Debug/Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1788958058.24039, 0.0125, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 7 SYSTEMPATH/Filters/DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 8 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 9 SYSTEMPATH/Filters/Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+10 SYSTEMPATH/CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+11 SYSTEMPATH/CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+12 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/public/index.php')
+WARNING - 2026-09-09 12:47:38 --> [DEPRECATED] Kint\Zval\Representation\Representation::__construct(): Implicitly marking parameter $name as nullable is deprecated, the explicit nullable type must be used instead in VENDORPATH/kint-php/kint/src/Zval/Representation/Representation.php on line 39.
+ 1 VENDORPATH/composer/ClassLoader.php(576): include('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/system/Debug/Exceptions.php')
+ 2 VENDORPATH/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/vendor/composer/../kint-php/kint/src/Zval/Representation/Representation.php')
+ 3 VENDORPATH/kint-php/kint/src/Parser/Parser.php(323): Composer\Autoload\ClassLoader->loadClass('Kint\\Zval\\Representation\\Representation')
+ 4 VENDORPATH/kint-php/kint/src/Parser/Parser.php(131): Kint\Parser\Parser->parseArray([...], Object(Kint\Zval\Value))
+ 5 VENDORPATH/kint-php/kint/src/Kint.php(285): Kint\Parser\Parser->parse([...], Object(Kint\Zval\Value))
+ 6 VENDORPATH/kint-php/kint/src/Kint.php(268): Kint\Kint->dumpVar([...], Object(Kint\Zval\Value))
+ 7 VENDORPATH/kint-php/kint/src/Kint.php(575): Kint\Kint->dumpAll([...], [...])
+ 8 SYSTEMPATH/Debug/Toolbar.php(113): Kint\Kint::dump([...])
+ 9 SYSTEMPATH/Debug/Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1788958058.24039, 0.0125, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+10 SYSTEMPATH/Filters/DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+11 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+12 SYSTEMPATH/Filters/Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+13 SYSTEMPATH/CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+14 SYSTEMPATH/CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+15 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/public/index.php')
+WARNING - 2026-09-09 12:47:38 --> [DEPRECATED] Kint\Zval\BlobValue::substr(): Implicitly marking parameter $length as nullable is deprecated, the explicit nullable type must be used instead in VENDORPATH/kint-php/kint/src/Zval/BlobValue.php on line 144.
+ 1 VENDORPATH/composer/ClassLoader.php(576): include('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/system/Debug/Exceptions.php')
+ 2 VENDORPATH/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/vendor/composer/../kint-php/kint/src/Zval/BlobValue.php')
+ 3 VENDORPATH/kint-php/kint/src/Parser/Parser.php(285): Composer\Autoload\ClassLoader->loadClass('Kint\\Zval\\BlobValue')
+ 4 VENDORPATH/kint-php/kint/src/Parser/Parser.php(142): Kint\Parser\Parser->parseString('Angela Reyes', Object(Kint\Zval\Value))
+ 5 VENDORPATH/kint-php/kint/src/Parser/Parser.php(387): Kint\Parser\Parser->parse('Angela Reyes', Object(Kint\Zval\Value))
+ 6 VENDORPATH/kint-php/kint/src/Parser/Parser.php(131): Kint\Parser\Parser->parseArray([...], Object(Kint\Zval\Value))
+ 7 VENDORPATH/kint-php/kint/src/Parser/Parser.php(387): Kint\Parser\Parser->parse([...], Object(Kint\Zval\Value))
+ 8 VENDORPATH/kint-php/kint/src/Parser/Parser.php(131): Kint\Parser\Parser->parseArray([...], Object(Kint\Zval\Value))
+ 9 VENDORPATH/kint-php/kint/src/Kint.php(285): Kint\Parser\Parser->parse([...], Object(Kint\Zval\Value))
+10 VENDORPATH/kint-php/kint/src/Kint.php(268): Kint\Kint->dumpVar([...], Object(Kint\Zval\Value))
+11 VENDORPATH/kint-php/kint/src/Kint.php(575): Kint\Kint->dumpAll([...], [...])
+12 SYSTEMPATH/Debug/Toolbar.php(113): Kint\Kint::dump([...])
+13 SYSTEMPATH/Debug/Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1788958058.24039, 0.0125, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+14 SYSTEMPATH/Filters/DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+15 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+16 SYSTEMPATH/Filters/Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+17 SYSTEMPATH/CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+18 SYSTEMPATH/CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+19 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+20 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+21 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+22 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/public/index.php')
+WARNING - 2026-09-09 12:47:38 --> [DEPRECATED] Kint\Zval\Representation\ColorRepresentation::getColor(): Implicitly marking parameter $variant as nullable is deprecated, the explicit nullable type must be used instead in VENDORPATH/kint-php/kint/src/Zval/Representation/ColorRepresentation.php on line 214.
+ 1 VENDORPATH/composer/ClassLoader.php(576): include('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/system/Debug/Exceptions.php')
+ 2 VENDORPATH/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/vendor/composer/../kint-php/kint/src/Zval/Representation/ColorRepresentation.php')
+ 3 VENDORPATH/kint-php/kint/src/Parser/ColorPlugin.php(53): Composer\Autoload\ClassLoader->loadClass('Kint\\Zval\\Representation\\ColorRepresentation')
+ 4 VENDORPATH/kint-php/kint/src/Parser/Parser.php(636): Kint\Parser\ColorPlugin->parse('Angela Reyes', Object(Kint\Zval\BlobValue), 2)
+ 5 VENDORPATH/kint-php/kint/src/Parser/Parser.php(297): Kint\Parser\Parser->applyPlugins('Angela Reyes', Object(Kint\Zval\BlobValue), 2)
+ 6 VENDORPATH/kint-php/kint/src/Parser/Parser.php(142): Kint\Parser\Parser->parseString('Angela Reyes', Object(Kint\Zval\Value))
+ 7 VENDORPATH/kint-php/kint/src/Parser/Parser.php(387): Kint\Parser\Parser->parse('Angela Reyes', Object(Kint\Zval\Value))
+ 8 VENDORPATH/kint-php/kint/src/Parser/Parser.php(131): Kint\Parser\Parser->parseArray([...], Object(Kint\Zval\Value))
+ 9 VENDORPATH/kint-php/kint/src/Parser/Parser.php(387): Kint\Parser\Parser->parse([...], Object(Kint\Zval\Value))
+10 VENDORPATH/kint-php/kint/src/Parser/Parser.php(131): Kint\Parser\Parser->parseArray([...], Object(Kint\Zval\Value))
+11 VENDORPATH/kint-php/kint/src/Kint.php(285): Kint\Parser\Parser->parse([...], Object(Kint\Zval\Value))
+12 VENDORPATH/kint-php/kint/src/Kint.php(268): Kint\Kint->dumpVar([...], Object(Kint\Zval\Value))
+13 VENDORPATH/kint-php/kint/src/Kint.php(575): Kint\Kint->dumpAll([...], [...])
+14 SYSTEMPATH/Debug/Toolbar.php(113): Kint\Kint::dump([...])
+15 SYSTEMPATH/Debug/Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1788958058.24039, 0.0125, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+16 SYSTEMPATH/Filters/DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+17 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+18 SYSTEMPATH/Filters/Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+19 SYSTEMPATH/CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+20 SYSTEMPATH/CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+21 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+23 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+24 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/public/index.php')
+WARNING - 2026-09-09 12:47:38 --> [DEPRECATED] Kint\Zval\Representation\ColorRepresentation::hasAlpha(): Implicitly marking parameter $variant as nullable is deprecated, the explicit nullable type must be used instead in VENDORPATH/kint-php/kint/src/Zval/Representation/ColorRepresentation.php on line 278.
+ 1 VENDORPATH/composer/ClassLoader.php(576): include('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/system/Debug/Exceptions.php')
+ 2 VENDORPATH/composer/ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/vendor/composer/../kint-php/kint/src/Zval/Representation/ColorRepresentation.php')
+ 3 VENDORPATH/kint-php/kint/src/Parser/ColorPlugin.php(53): Composer\Autoload\ClassLoader->loadClass('Kint\\Zval\\Representation\\ColorRepresentation')
+ 4 VENDORPATH/kint-php/kint/src/Parser/Parser.php(636): Kint\Parser\ColorPlugin->parse('Angela Reyes', Object(Kint\Zval\BlobValue), 2)
+ 5 VENDORPATH/kint-php/kint/src/Parser/Parser.php(297): Kint\Parser\Parser->applyPlugins('Angela Reyes', Object(Kint\Zval\BlobValue), 2)
+ 6 VENDORPATH/kint-php/kint/src/Parser/Parser.php(142): Kint\Parser\Parser->parseString('Angela Reyes', Object(Kint\Zval\Value))
+ 7 VENDORPATH/kint-php/kint/src/Parser/Parser.php(387): Kint\Parser\Parser->parse('Angela Reyes', Object(Kint\Zval\Value))
+ 8 VENDORPATH/kint-php/kint/src/Parser/Parser.php(131): Kint\Parser\Parser->parseArray([...], Object(Kint\Zval\Value))
+ 9 VENDORPATH/kint-php/kint/src/Parser/Parser.php(387): Kint\Parser\Parser->parse([...], Object(Kint\Zval\Value))
+10 VENDORPATH/kint-php/kint/src/Parser/Parser.php(131): Kint\Parser\Parser->parseArray([...], Object(Kint\Zval\Value))
+11 VENDORPATH/kint-php/kint/src/Kint.php(285): Kint\Parser\Parser->parse([...], Object(Kint\Zval\Value))
+12 VENDORPATH/kint-php/kint/src/Kint.php(268): Kint\Kint->dumpVar([...], Object(Kint\Zval\Value))
+13 VENDORPATH/kint-php/kint/src/Kint.php(575): Kint\Kint->dumpAll([...], [...])
+14 SYSTEMPATH/Debug/Toolbar.php(113): Kint\Kint::dump([...])
+15 SYSTEMPATH/Debug/Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1788958058.24039, 0.0125, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+16 SYSTEMPATH/Filters/DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+17 SYSTEMPATH/Filters/Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+18 SYSTEMPATH/Filters/Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+19 SYSTEMPATH/CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+20 SYSTEMPATH/CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+21 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+22 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+23 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+24 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/demonstration_ci4/public/index.php')
+CRITICAL - 2026-09-09 12:47:38 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: customers]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:47:41 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: customers]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:47:42 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: /]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:47:43 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: users]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:54:54 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: /]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:55:04 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: about]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:56:54 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: /]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:56:54 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: about]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:56:54 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: customers]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-09-09 12:56:54 --> ErrorException: Declaration of CodeIgniter\I18n\Time::createFromTimestamp(int $timestamp, $timezone = null, ?string $locale = null) must be compatible with DateTimeImmutable::createFromTimestamp(int|float $timestamp): static
+[Method: GET, Route: users]
+in SYSTEMPATH/I18n/TimeTrait.php on line 268.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
